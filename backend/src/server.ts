@@ -20,3 +20,5 @@ function startServer(port: number) {
 }
 
 startServer(DEFAULT_PORT);
+
+export default app;

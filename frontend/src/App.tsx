@@ -36,7 +36,7 @@ const MainApp: React.FC = () => {
       setMenuItems(items);
       setMenuError(null);
     } catch (err: any) {
-      setMenuError('Could not connect to backend REST API (http://localhost:5000). Please ensure server is running.');
+      setMenuError('Could not connect to backend REST API. Please ensure server is running.');
     } finally {
       setLoadingMenu(false);
     }
